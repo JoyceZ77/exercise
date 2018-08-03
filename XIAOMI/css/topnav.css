@@ -1,0 +1,80 @@
+li{
+    list-style-type:none;
+}
+
+.container{
+    width:100%;
+    height:100px;
+}
+
+#topnav{
+    width: 1226px;
+    margin: 0 auto;
+    display: flex;               /*设置为flex布局*/
+    align-items: center;     /*垂直居中*/
+
+}
+
+#milogo{
+    /* float: left; */
+
+}
+
+#fever{
+    /* float: left; */
+    margin-left: 13px;
+}
+
+#topnav-list{
+    /* float: left; */
+    width: 60%;
+}
+
+#topnav-list li{
+    float: left;
+}
+
+#topnav-list li a{
+    margin: auto 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+#top-search{
+    /* float: right; */
+    
+}
+
+.topnav-hiddenbar{
+    width: 100%;
+    height: 200px;
+    /* display: none; */
+    /* background-color: red; */
+}
+
+.topnav-hiddenbar ul {
+    height: 100%;
+    width: 1226px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.new{
+    width: 50%;
+    height: 20px;
+    color: orange;
+    border: 1px solid orange;
+    margin: 0 auto 5px;
+    display: flex;               /*设置为flex布局*/
+    align-items: center;     /*垂直居中*/
+    justify-content: center;
+}
+
+.q{
+    display: flex;               /*设置为flex布局*/
+    align-items: center;     /*垂直居中*/
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,73 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei",sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #bbb;
+}
+
+#toppic a img{
+    vertical-align:bottom;    
+}
+
+#topbar-bg{
+    background-color: #333;
+    height: 40px;
+    width: 100%;
+}
+
+#topbar-ps{
+    margin: 0 auto;
+    width: 1226px;
+    height: 100%;
+    display: flex;               /*设置为flex布局*/
+    align-items: center;     /*垂直居中*/
+}
+
+
+#topbar-l{
+    float:left;
+    font-size: 0px;
+    width: 77.8%;
+}
+
+span{
+    font-size: 12px;
+    margin: 0 6px;
+    color: #555;
+}
+
+#topbar-l a{
+    font-size: 12px;
+}
+
+#topbar-cart{
+    background-color: #555;
+    width: 120px;
+    height: 40px;
+    margin-left:25px;
+}
+
+#topbar-cart a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    display: flex;               /*设置为flex布局*/
+    align-items: center;     /*垂直居中*/
+    justify-content: center;
+}
+
+#topbar-cart span{
+    color:#bbb;
+    margin: 0;
+}
+#topbar-r{
+}
+

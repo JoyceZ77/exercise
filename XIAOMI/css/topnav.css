@@ -47,9 +47,10 @@ li{
 
 .topnav-hiddenbar{
     width: 100%;
-    height: 200px;
+    height: 230px;
     /* display: none; */
-    /* background-color: red; */
+    background-color: red;
+    border-top: 1px solid #CCC;
 }
 
 .topnav-hiddenbar ul {
@@ -65,16 +66,28 @@ li{
     width: 50%;
     height: 20px;
     color: orange;
+    padding: 2 px;
     border: 1px solid orange;
-    margin: 0 auto 5px;
+    margin: 0px auto 5px;
     display: flex;               /*设置为flex布局*/
     align-items: center;     /*垂直居中*/
     justify-content: center;
 }
 
-.q{
+.topnav-hiddenbar ul li{
     display: flex;               /*设置为flex布局*/
-    align-items: center;     /*垂直居中*/
+    /* align-items: center;     /*垂直居中*/ */
     justify-content: center;
     flex-direction: column;
+    /* align-content: space-between; */
+    padding-top: 0px;
+    
+}
+
+.topnav-hiddenbar ul li a{
+    flex: 1;
+}
+
+.topnav-hiddenbar ul li p{
+    height: 40px;
 }
